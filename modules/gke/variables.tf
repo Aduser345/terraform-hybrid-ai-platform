@@ -1,0 +1,14 @@
+variable "project_id"            { type = string }
+variable "project_name"          { type = string }
+variable "environment"           { type = string }
+variable "region"                { type = string }
+variable "network_id"            { type = string }
+variable "subnet_id"             { type = string }
+variable "pods_range_name"       { type = string }
+variable "services_range_name"   { type = string }
+variable "node_service_account"  { type = string }
+variable "release_channel"       { type = string }
+variable "node_machine_type"     { type = string }
+variable "node_min_count"        { type = number }
+variable "node_max_count"        { type = number }
+variable "authorized_cidr"       { type = string }
